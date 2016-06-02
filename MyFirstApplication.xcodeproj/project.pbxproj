@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371A5CEB1D001D1B00499443 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371A5CEA1D001D1B00499443 /* dog.jpg */; };
+		371A5CEE1D001E3600499443 /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371A5CEC1D001E3600499443 /* dog2.jpg */; };
+		371A5CEF1D001E3600499443 /* dog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371A5CED1D001E3600499443 /* dog3.jpg */; };
+		371A5CF51D0027DD00499443 /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 371A5CF41D0027DD00499443 /* MBFPuppy.m */; };
+		374BBA791CFADCBC004B11F3 /* plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 374BBA781CFADCBC004B11F3 /* plane.jpg */; };
+		374BBA7C1CFAE3F5004B11F3 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BBA7B1CFAE3F5004B11F3 /* MBFDog.m */; };
 		37A807481CFAD549008FFD03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A807471CFAD549008FFD03 /* main.m */; };
 		37A8074B1CFAD549008FFD03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A8074A1CFAD549008FFD03 /* AppDelegate.m */; };
 		37A8074E1CFAD549008FFD03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A8074D1CFAD549008FFD03 /* ViewController.m */; };
@@ -16,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371A5CEA1D001D1B00499443 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		371A5CEC1D001E3600499443 /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
+		371A5CED1D001E3600499443 /* dog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog3.jpg; sourceTree = "<group>"; };
+		371A5CF31D0027DD00499443 /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		371A5CF41D0027DD00499443 /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
+		374BBA781CFADCBC004B11F3 /* plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane.jpg; sourceTree = "<group>"; };
+		374BBA7A1CFAE3F5004B11F3 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		374BBA7B1CFAE3F5004B11F3 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 		37A807431CFAD549008FFD03 /* MyFirstApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A807471CFAD549008FFD03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37A807491CFAD549008FFD03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +77,10 @@
 				37A8074C1CFAD549008FFD03 /* ViewController.h */,
 				37A8074D1CFAD549008FFD03 /* ViewController.m */,
 				37A8074F1CFAD549008FFD03 /* Main.storyboard */,
+				374BBA7A1CFAE3F5004B11F3 /* MBFDog.h */,
+				374BBA7B1CFAE3F5004B11F3 /* MBFDog.m */,
+				371A5CF31D0027DD00499443 /* MBFPuppy.h */,
+				371A5CF41D0027DD00499443 /* MBFPuppy.m */,
 				37A807521CFAD549008FFD03 /* Assets.xcassets */,
 				37A807541CFAD549008FFD03 /* LaunchScreen.storyboard */,
 				37A807571CFAD549008FFD03 /* Info.plist */,
@@ -75,6 +93,10 @@
 			isa = PBXGroup;
 			children = (
 				37A807471CFAD549008FFD03 /* main.m */,
+				371A5CEC1D001E3600499443 /* dog2.jpg */,
+				371A5CED1D001E3600499443 /* dog3.jpg */,
+				371A5CEA1D001D1B00499443 /* dog.jpg */,
+				374BBA781CFADCBC004B11F3 /* plane.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,9 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374BBA791CFADCBC004B11F3 /* plane.jpg in Resources */,
+				371A5CEE1D001E3600499443 /* dog2.jpg in Resources */,
+				371A5CEB1D001D1B00499443 /* dog.jpg in Resources */,
 				37A807561CFAD549008FFD03 /* LaunchScreen.storyboard in Resources */,
 				37A807531CFAD549008FFD03 /* Assets.xcassets in Resources */,
 				37A807511CFAD549008FFD03 /* Main.storyboard in Resources */,
+				371A5CEF1D001E3600499443 /* dog3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +177,9 @@
 			files = (
 				37A8074E1CFAD549008FFD03 /* ViewController.m in Sources */,
 				37A8074B1CFAD549008FFD03 /* AppDelegate.m in Sources */,
+				374BBA7C1CFAE3F5004B11F3 /* MBFDog.m in Sources */,
 				37A807481CFAD549008FFD03 /* main.m in Sources */,
+				371A5CF51D0027DD00499443 /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +328,7 @@
 				37A8075C1CFAD549008FFD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
